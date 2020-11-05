@@ -1,4 +1,3 @@
-
 module alu_statement_tester #(
     INPUT_A,
     INPUT_B,
