@@ -1,9 +1,3 @@
-// alu_statement_tester cycles through the states to display the values for A, B and output from the ALU.
-// alu_statement_tester starts cycling through the states when start input signal is put to HIGH
-// states transitions occur on the rising clock edge of slow_clock, which has a period of ~0.65s
-// the states terminate either at DONE or ERROR_2
-// DONE state pulls done output signal to HIGH, displays 'd' on seven segment seg_display
-// ERROR displays 'E' on seven segment seg_display
 
 module alu_statement_tester #(
     INPUT_A,
