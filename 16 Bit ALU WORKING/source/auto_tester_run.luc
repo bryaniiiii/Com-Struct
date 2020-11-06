@@ -21,7 +21,8 @@
 // In hindsight, we should have also tested for the outputs z, v and n to account for overflow,
 // allowing us to test the exceptional cases such as 16*16
 
-// Note that in test case ___, the error was intentionally fed in by inputting a wrong 'expected' output value for the ALU
+// Note that in test case 23, the error was intentionally fed in by inputting a wrong 'expected' output value for the ALU
+// To test all cases, remember to change the expected value for case 23 to the correct input.
 
 module auto_tester_run (
     input clk,  // clock
@@ -83,7 +84,8 @@ module auto_tester_run (
       
       // testing CEQ
       auto_alu_tester test_22 (#INPUT_A(16h7fff), #INPUT_B(16h7fff), #OPCODE(6b110011), #EXPECTED(16h0001));
-      auto_alu_tester test_23 (#INPUT_A(16h7fff), #INPUT_B(16h0000), #OPCODE(6b110011), #EXPECTED(16h0000));
+          // force-fitted error case - expected should be 0
+      auto_alu_tester test_23 (#INPUT_A(16h7fff), #INPUT_B(16h0000), #OPCODE(6b110011), #EXPECTED(16h0001));
       
       // testing CLT
       auto_alu_tester test_24 (#INPUT_A(16h7fff), #INPUT_B(16h7fff), #OPCODE(6b110101), #EXPECTED(16h0000));
