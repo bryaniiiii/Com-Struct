@@ -1,3 +1,18 @@
+// Logic module for automatic tester for 16bit ALU:
+// takes in INPUT_A, INPUT_B, OPCODE and EXPECTED to feed one specified test case into the alu
+// output from ALU is stored in d flip-flop called 'out'
+
+// We use an FSM to change the display on the seven segment of the FPGA to show the 
+// input value of A, input value of B, expected output from ALU and actual output from ALU 
+// which are shown in states A_VALUE, B_VALUE, EXPECT and OUT respectively
+// if the output from the ALU is equal to the expected value fed into the test case's parameters,
+// we transition of state PASS, and the letter 'P' is shown
+// else, we transition to state FAIL, and the letter 'F' is shown
+
+// This logic module links up with the auto_tester_run module, together forming the auto tester for our ALU
+// Take note of the output 'done', of this module, which triggers the next test case to run in the run module,
+// which you can see later in the auto_tester_run lucid file.
+
 module auto_alu_tester
 #(
     INPUT_A,
@@ -21,6 +36,8 @@ module auto_alu_tester
   //dff out[16](#INIT(0), .clk(clk), .rst(rst));
   //counter timer (#SIZE(1), #DIV(25), .clk(clk), .rst(rst)); // pace of transition from one value to the next displayed
  // multi_seven_seg seg_display(.clk(clk), .rst(rst));
+  // same ways of doing the same thing..
+  
     .clk(clk) {
     edge_detector timerClock(#RISE(1), #FALL(0));
     
@@ -36,6 +53,8 @@ module auto_alu_tester
   sig a[16];
   sig b[16];
   sig expected[16];
+  
+  // instantiate ALU
   alu_16_bit alu(.alufn(alufn), .a(a), .b(b));
 
   always {
@@ -44,7 +63,8 @@ module auto_alu_tester
     timerClock.in = timer.value;
     io_seg = ~seg_display.seg; // connect segments to the driver
     io_sel = ~seg_display.sel; // connect digit select to the driver
-    seg_display.values = {4b0000,4b0001,4b0010,4b0011};
+    // set initial display values
+    seg_display.values = {4b0000,4b0000,4b0000,4b0000};
     
     alufn = OPCODE;
     a = INPUT_A;
@@ -75,6 +95,7 @@ module auto_alu_tester
           state.d = state.EXPECT;
           
       state.EXPECT:
+        // display expected values
         seg_display.values = {expected[15:12], expected[11:8], expected[7:4], expected[3:0]};
         io_seg = ~seg_display.seg;
         io_sel = ~seg_display.sel;
@@ -82,6 +103,7 @@ module auto_alu_tester
           state.d = state.OUT;
        
       state.OUT:
+        // display actual output values from the ALU based on input given
         seg_display.values = {out.q[15:12], out.q[11:8], out.q[7:4], out.q[3:0]};
         io_seg = ~seg_display.seg;
         io_sel = ~seg_display.sel;
@@ -92,14 +114,16 @@ module auto_alu_tester
           state.d = state.FAIL;
           
       state.PASS:
-        io_seg = 8b10100001;
-        io_sel = 4b1110;
+        io_seg = 8b10001100; // displays the letter 'P'
+        io_sel = 4b1110;     // on the first digit of the seven segment display
         opcode_led = 6b000000;
+        // value of output done is changed from 0 initially to 1, to trigger next test case to run
+        // in the auto_tester_run file.
         done = 1;
         
       state.FAIL:
-        io_seg = 8b10001110;
-        io_sel = 4b1110;
+        io_seg = 8b10001110; // displays the letter 'F'
+        io_sel = 4b1110;     // on the first digit
         
       }
 
