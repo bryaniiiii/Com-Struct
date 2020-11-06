@@ -132,7 +132,7 @@ module alu_tester_auto (
         if(start)
           autostate.d = autostate.TEST_0;
       
-      // INSERT GENERATED autostate.TEST_n CASES HERE      
+      // We cycle through the various test cases here, and used a python script to automate the following test states
       autostate.TEST_0:
       		io_seg = test_0.io_seg;
       		io_sel = test_0.io_sel;
