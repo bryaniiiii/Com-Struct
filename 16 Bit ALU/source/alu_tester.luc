@@ -1,17 +1,16 @@
-// alu_tester is a module to manually test the alu
-// alu_tester cycles between the A, B and OUT states on the rising clock edge of the state_change_btn
-// in the A & B states, the values of c{ io_dip[1], io_dip[0] } are written to the A & B d-flip-flops respectively
+// this module will first display A, then we input the value, then B, then we input the value, then 0's leds will be the result displayed depending on the OPCODE selected
+// we store the values for A and B, the values of c{ io_dip[1], io_dip[0] } in the A & B d-flip-flops 
 // the alu A & B inputs are connected to A & B d-flip-flops on alu_tester respectively
-// in the O state, the output value from the alu is displayed on c{io_sel[1], io_sel[0]}
-// the opcode input of the alu is connected to io_dip[2][5:0]
-// the opcode input can be changed at any time to change the output value from the alu
+// the output value from the ALU is displayed on c{io_sel[1], io_sel[0]} after A and B are stored, in the 0 state as follows
+// io_dip[2][5:0] displays the OPCODE we choose
+// After A and B are stored, we can chaneg the OPCODE anytime to display different outputs and test different units
 
-module alu_tester (
-    input clk,  // clock
-    input rst,  // reset
+module alu_tester ( // alu_tester is is a module we created for the manual testing of the ALU 
+    input clk,  // clock as provided within documentation
+    input rst,  // reset as provided within documentation
     input io_dip [3][8],     // DIP switches on IO Shield
     input state_change_btn, 
-    output io_seg[8],
+    output io_seg[8], 
     output io_sel[4],
     output io_led [3][8]   // LEDs on IO Shield
   ) {
