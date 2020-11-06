@@ -1,0 +1,33 @@
+Design Route Status
+                                               :      # nets :
+   ------------------------------------------- : ----------- :
+<<<<<<< HEAD
+   # of logical nets.......................... :        6368 :
+       # of nets not needing routing.......... :        2377 :
+           # of internally routed nets........ :        2377 :
+       # of routable nets..................... :        3991 :
+           # of fully routed nets............. :        3991 :
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+   # of logical nets.......................... :        6491 :
+       # of nets not needing routing.......... :        2582 :
+           # of internally routed nets........ :        2582 :
+       # of routable nets..................... :        3909 :
+           # of fully routed nets............. :        3909 :
+=======
+=======
+>>>>>>> parent of 6052a66... Added Auto Tester Files and flashed FPGA
+   # of logical nets.......................... :         448 :
+       # of nets not needing routing.......... :         132 :
+           # of internally routed nets........ :         132 :
+       # of routable nets..................... :         316 :
+           # of fully routed nets............. :         316 :
+<<<<<<< HEAD
+>>>>>>> parent of 6052a66... Added Auto Tester Files and flashed FPGA
+=======
+>>>>>>> parent of 6052a66... Added Auto Tester Files and flashed FPGA
+>>>>>>> b02f176be14280e4bccc160ef1acaa0586c174ee
+       # of nets with routing errors.......... :           0 :
+   ------------------------------------------- : ----------- :
+

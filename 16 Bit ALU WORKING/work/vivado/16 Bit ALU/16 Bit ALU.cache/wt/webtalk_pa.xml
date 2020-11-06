@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+<!--The data in this file is primarily intended for consumption by Xilinx tools.
+The structure and the elements are likely to change over the next few releases.
+This means code written to parse this file will need to be revisited each subsequent release.-->
+<<<<<<< HEAD
+<application name="pa" timeStamp="Fri Nov  6 13:52:25 2020">
+<section name="Project Information" visible="false">
+<property name="ProjectID" value="f0dc5e85bc3e46e595340c3756be2381" type="ProjectID"/>
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<application name="pa" timeStamp="Fri Nov  6 03:13:45 2020">
+<section name="Project Information" visible="false">
+<property name="ProjectID" value="6f846361028a420f88b608130700103a" type="ProjectID"/>
+=======
+<application name="pa" timeStamp="Tue Nov  3 20:45:39 2020">
+<section name="Project Information" visible="false">
+<property name="ProjectID" value="c25cbf8c2ddf44fc9d678b354173b259" type="ProjectID"/>
+>>>>>>> parent of 6052a66... Added Auto Tester Files and flashed FPGA
+=======
+<application name="pa" timeStamp="Tue Nov  3 20:45:39 2020">
+<section name="Project Information" visible="false">
+<property name="ProjectID" value="c25cbf8c2ddf44fc9d678b354173b259" type="ProjectID"/>
+>>>>>>> parent of 6052a66... Added Auto Tester Files and flashed FPGA
+>>>>>>> b02f176be14280e4bccc160ef1acaa0586c174ee
+<property name="ProjectIteration" value="1" type="ProjectIteration"/>
+</section>
+<section name="PlanAhead Usage" visible="true">
+<item name="Project Data">
+<property name="SrcSetCount" value="1" type="SrcSetCount"/>
+<property name="ConstraintSetCount" value="1" type="ConstraintSetCount"/>
+<property name="DesignMode" value="RTL" type="DesignMode"/>
+<property name="SynthesisStrategy" value="Vivado Synthesis Defaults" type="SynthesisStrategy"/>
+<property name="ImplStrategy" value="Vivado Implementation Defaults" type="ImplStrategy"/>
+</item>
+</section>
+</application>
+</document>

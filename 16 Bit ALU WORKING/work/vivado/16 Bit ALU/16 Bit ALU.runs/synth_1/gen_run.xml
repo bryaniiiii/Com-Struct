@@ -1,0 +1,889 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
+<GenRun Id="synth_1" LaunchPart="xc7a35tftg256-1" LaunchTime="1604641848">
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<GenRun Id="synth_1" LaunchPart="xc7a35tftg256-1" LaunchTime="1604603548">
+=======
+<GenRun Id="synth_1" LaunchPart="xc7a35tftg256-1" LaunchTime="1604407494">
+>>>>>>> parent of 6052a66... Added Auto Tester Files and flashed FPGA
+=======
+<GenRun Id="synth_1" LaunchPart="xc7a35tftg256-1" LaunchTime="1604407494">
+>>>>>>> parent of 6052a66... Added Auto Tester Files and flashed FPGA
+>>>>>>> b02f176be14280e4bccc160ef1acaa0586c174ee
+  <File Type="PA-TCL" Name="au_top_0.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="au_top_0_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="au_top_0_reports.tcl"/>
+  <File Type="RDS-RDS" Name="au_top_0.vds"/>
+  <File Type="RDS-UTIL" Name="au_top_0_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="au_top_0_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="au_top_0.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="au_top_0_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="au_top_0_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+<<<<<<< HEAD
+    <File Path="$PSRCDIR/sources_1/imports/verilog/alu_16_bit_41.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/alu_16_bit_41.v"/>
+        <Attr Name="ImportTime" Val="1604641837"/>
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <File Path="$PSRCDIR/sources_1/imports/verilog/alu_16_bit_7.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/alu_16_bit_7.v"/>
+        <Attr Name="ImportTime" Val="1604603543"/>
+=======
+    <File Path="$PSRCDIR/sources_1/imports/verilog/alu_16_bit_5.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/alu_16_bit_5.v"/>
+        <Attr Name="ImportTime" Val="1604407486"/>
+>>>>>>> parent of 6052a66... Added Auto Tester Files and flashed FPGA
+=======
+    <File Path="$PSRCDIR/sources_1/imports/verilog/alu_16_bit_5.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/alu_16_bit_5.v"/>
+        <Attr Name="ImportTime" Val="1604407486"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/verilog/alu_arithmetic_7.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/alu_arithmetic_7.v"/>
+        <Attr Name="ImportTime" Val="1604407486"/>
+>>>>>>> parent of 6052a66... Added Auto Tester Files and flashed FPGA
+>>>>>>> b02f176be14280e4bccc160ef1acaa0586c174ee
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+<<<<<<< HEAD
+    <File Path="$PSRCDIR/sources_1/imports/verilog/alu_arithmetic_44.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/alu_arithmetic_44.v"/>
+        <Attr Name="ImportTime" Val="1604641837"/>
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <File Path="$PSRCDIR/sources_1/imports/verilog/alu_arithmetic_42.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/alu_arithmetic_42.v"/>
+        <Attr Name="ImportTime" Val="1604603543"/>
+=======
+    <File Path="$PSRCDIR/sources_1/imports/verilog/alu_arithmetic_7.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/alu_arithmetic_7.v"/>
+        <Attr Name="ImportTime" Val="1604407486"/>
+>>>>>>> parent of 6052a66... Added Auto Tester Files and flashed FPGA
+=======
+    <File Path="$PSRCDIR/sources_1/imports/verilog/alu_boolean_8.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/alu_boolean_8.v"/>
+        <Attr Name="ImportTime" Val="1604407486"/>
+>>>>>>> parent of 6052a66... Added Auto Tester Files and flashed FPGA
+>>>>>>> b02f176be14280e4bccc160ef1acaa0586c174ee
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+<<<<<<< HEAD
+    <File Path="$PSRCDIR/sources_1/imports/verilog/alu_boolean_45.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/alu_boolean_45.v"/>
+        <Attr Name="ImportTime" Val="1604641837"/>
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <File Path="$PSRCDIR/sources_1/imports/verilog/alu_boolean_43.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/alu_boolean_43.v"/>
+        <Attr Name="ImportTime" Val="1604603543"/>
+=======
+    <File Path="$PSRCDIR/sources_1/imports/verilog/alu_boolean_8.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/alu_boolean_8.v"/>
+        <Attr Name="ImportTime" Val="1604407486"/>
+>>>>>>> parent of 6052a66... Added Auto Tester Files and flashed FPGA
+=======
+    <File Path="$PSRCDIR/sources_1/imports/verilog/alu_compare_9.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/alu_compare_9.v"/>
+        <Attr Name="ImportTime" Val="1604407486"/>
+>>>>>>> parent of 6052a66... Added Auto Tester Files and flashed FPGA
+>>>>>>> b02f176be14280e4bccc160ef1acaa0586c174ee
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+<<<<<<< HEAD
+    <File Path="$PSRCDIR/sources_1/imports/verilog/alu_compare_46.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/alu_compare_46.v"/>
+        <Attr Name="ImportTime" Val="1604641837"/>
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <File Path="$PSRCDIR/sources_1/imports/verilog/alu_compare_44.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/alu_compare_44.v"/>
+        <Attr Name="ImportTime" Val="1604603543"/>
+=======
+    <File Path="$PSRCDIR/sources_1/imports/verilog/alu_compare_9.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/alu_compare_9.v"/>
+        <Attr Name="ImportTime" Val="1604407486"/>
+>>>>>>> parent of 6052a66... Added Auto Tester Files and flashed FPGA
+=======
+    <File Path="$PSRCDIR/sources_1/imports/verilog/alu_shifter_10.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/alu_shifter_10.v"/>
+        <Attr Name="ImportTime" Val="1604407486"/>
+>>>>>>> parent of 6052a66... Added Auto Tester Files and flashed FPGA
+>>>>>>> b02f176be14280e4bccc160ef1acaa0586c174ee
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+<<<<<<< HEAD
+    <File Path="$PSRCDIR/sources_1/imports/verilog/alu_shifter_47.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/alu_shifter_47.v"/>
+        <Attr Name="ImportTime" Val="1604641837"/>
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <File Path="$PSRCDIR/sources_1/imports/verilog/alu_shifter_45.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/alu_shifter_45.v"/>
+        <Attr Name="ImportTime" Val="1604603543"/>
+=======
+    <File Path="$PSRCDIR/sources_1/imports/verilog/alu_shifter_10.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/alu_shifter_10.v"/>
+        <Attr Name="ImportTime" Val="1604407486"/>
+>>>>>>> parent of 6052a66... Added Auto Tester Files and flashed FPGA
+=======
+    <File Path="$PSRCDIR/sources_1/imports/verilog/button_conditioner_3.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/button_conditioner_3.v"/>
+        <Attr Name="ImportTime" Val="1604407486"/>
+>>>>>>> parent of 6052a66... Added Auto Tester Files and flashed FPGA
+>>>>>>> b02f176be14280e4bccc160ef1acaa0586c174ee
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <File Path="$PSRCDIR/sources_1/imports/verilog/auto_alu_tester_10.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/auto_alu_tester_10.v"/>
+<<<<<<< HEAD
+        <Attr Name="ImportTime" Val="1604641837"/>
+=======
+        <Attr Name="ImportTime" Val="1604603543"/>
+=======
+    <File Path="$PSRCDIR/sources_1/imports/verilog/button_conditioner_3.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/button_conditioner_3.v"/>
+        <Attr Name="ImportTime" Val="1604407486"/>
+>>>>>>> parent of 6052a66... Added Auto Tester Files and flashed FPGA
+=======
+    <File Path="$PSRCDIR/sources_1/imports/verilog/edge_detector_4.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/edge_detector_4.v"/>
+        <Attr Name="ImportTime" Val="1604407486"/>
+>>>>>>> parent of 6052a66... Added Auto Tester Files and flashed FPGA
+>>>>>>> b02f176be14280e4bccc160ef1acaa0586c174ee
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <File Path="$PSRCDIR/sources_1/imports/verilog/auto_alu_tester_11.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/auto_alu_tester_11.v"/>
+<<<<<<< HEAD
+        <Attr Name="ImportTime" Val="1604641837"/>
+=======
+        <Attr Name="ImportTime" Val="1604603543"/>
+=======
+    <File Path="$PSRCDIR/sources_1/imports/verilog/edge_detector_4.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/edge_detector_4.v"/>
+        <Attr Name="ImportTime" Val="1604407486"/>
+>>>>>>> parent of 6052a66... Added Auto Tester Files and flashed FPGA
+>>>>>>> b02f176be14280e4bccc160ef1acaa0586c174ee
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+<<<<<<< HEAD
+    <File Path="$PSRCDIR/sources_1/imports/verilog/auto_alu_tester_12.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/auto_alu_tester_12.v"/>
+<<<<<<< HEAD
+        <Attr Name="ImportTime" Val="1604641837"/>
+=======
+        <Attr Name="ImportTime" Val="1604603543"/>
+>>>>>>> b02f176be14280e4bccc160ef1acaa0586c174ee
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/verilog/auto_alu_tester_13.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/auto_alu_tester_13.v"/>
+<<<<<<< HEAD
+        <Attr Name="ImportTime" Val="1604641837"/>
+=======
+        <Attr Name="ImportTime" Val="1604603543"/>
+>>>>>>> b02f176be14280e4bccc160ef1acaa0586c174ee
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/verilog/auto_alu_tester_14.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/auto_alu_tester_14.v"/>
+<<<<<<< HEAD
+        <Attr Name="ImportTime" Val="1604641837"/>
+=======
+        <Attr Name="ImportTime" Val="1604603543"/>
+>>>>>>> b02f176be14280e4bccc160ef1acaa0586c174ee
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/verilog/auto_alu_tester_15.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/auto_alu_tester_15.v"/>
+<<<<<<< HEAD
+        <Attr Name="ImportTime" Val="1604641837"/>
+=======
+        <Attr Name="ImportTime" Val="1604603543"/>
+>>>>>>> b02f176be14280e4bccc160ef1acaa0586c174ee
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/verilog/auto_alu_tester_16.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/auto_alu_tester_16.v"/>
+<<<<<<< HEAD
+        <Attr Name="ImportTime" Val="1604641837"/>
+=======
+        <Attr Name="ImportTime" Val="1604603543"/>
+>>>>>>> b02f176be14280e4bccc160ef1acaa0586c174ee
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/verilog/auto_alu_tester_17.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/auto_alu_tester_17.v"/>
+<<<<<<< HEAD
+        <Attr Name="ImportTime" Val="1604641837"/>
+=======
+        <Attr Name="ImportTime" Val="1604603543"/>
+>>>>>>> b02f176be14280e4bccc160ef1acaa0586c174ee
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/verilog/auto_alu_tester_18.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/auto_alu_tester_18.v"/>
+<<<<<<< HEAD
+        <Attr Name="ImportTime" Val="1604641837"/>
+=======
+        <Attr Name="ImportTime" Val="1604603543"/>
+>>>>>>> b02f176be14280e4bccc160ef1acaa0586c174ee
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/verilog/auto_alu_tester_19.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/auto_alu_tester_19.v"/>
+<<<<<<< HEAD
+        <Attr Name="ImportTime" Val="1604641837"/>
+=======
+        <Attr Name="ImportTime" Val="1604603543"/>
+>>>>>>> b02f176be14280e4bccc160ef1acaa0586c174ee
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/verilog/auto_alu_tester_20.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/auto_alu_tester_20.v"/>
+<<<<<<< HEAD
+        <Attr Name="ImportTime" Val="1604641837"/>
+=======
+        <Attr Name="ImportTime" Val="1604603543"/>
+>>>>>>> b02f176be14280e4bccc160ef1acaa0586c174ee
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/verilog/auto_alu_tester_21.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/auto_alu_tester_21.v"/>
+<<<<<<< HEAD
+        <Attr Name="ImportTime" Val="1604641837"/>
+=======
+        <Attr Name="ImportTime" Val="1604603543"/>
+>>>>>>> b02f176be14280e4bccc160ef1acaa0586c174ee
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/verilog/auto_alu_tester_22.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/auto_alu_tester_22.v"/>
+<<<<<<< HEAD
+        <Attr Name="ImportTime" Val="1604641837"/>
+=======
+        <Attr Name="ImportTime" Val="1604603543"/>
+>>>>>>> b02f176be14280e4bccc160ef1acaa0586c174ee
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/verilog/auto_alu_tester_23.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/auto_alu_tester_23.v"/>
+<<<<<<< HEAD
+        <Attr Name="ImportTime" Val="1604641837"/>
+=======
+        <Attr Name="ImportTime" Val="1604603543"/>
+>>>>>>> b02f176be14280e4bccc160ef1acaa0586c174ee
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/verilog/auto_alu_tester_24.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/auto_alu_tester_24.v"/>
+<<<<<<< HEAD
+        <Attr Name="ImportTime" Val="1604641837"/>
+=======
+        <Attr Name="ImportTime" Val="1604603543"/>
+>>>>>>> b02f176be14280e4bccc160ef1acaa0586c174ee
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/verilog/auto_alu_tester_25.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/auto_alu_tester_25.v"/>
+<<<<<<< HEAD
+        <Attr Name="ImportTime" Val="1604641837"/>
+=======
+        <Attr Name="ImportTime" Val="1604603543"/>
+>>>>>>> b02f176be14280e4bccc160ef1acaa0586c174ee
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/verilog/auto_alu_tester_26.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/auto_alu_tester_26.v"/>
+<<<<<<< HEAD
+        <Attr Name="ImportTime" Val="1604641837"/>
+=======
+        <Attr Name="ImportTime" Val="1604603543"/>
+>>>>>>> b02f176be14280e4bccc160ef1acaa0586c174ee
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/verilog/auto_alu_tester_27.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/auto_alu_tester_27.v"/>
+<<<<<<< HEAD
+        <Attr Name="ImportTime" Val="1604641837"/>
+=======
+        <Attr Name="ImportTime" Val="1604603543"/>
+>>>>>>> b02f176be14280e4bccc160ef1acaa0586c174ee
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/verilog/auto_alu_tester_28.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/auto_alu_tester_28.v"/>
+<<<<<<< HEAD
+        <Attr Name="ImportTime" Val="1604641837"/>
+=======
+        <Attr Name="ImportTime" Val="1604603543"/>
+>>>>>>> b02f176be14280e4bccc160ef1acaa0586c174ee
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/verilog/auto_alu_tester_29.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/auto_alu_tester_29.v"/>
+<<<<<<< HEAD
+        <Attr Name="ImportTime" Val="1604641837"/>
+=======
+        <Attr Name="ImportTime" Val="1604603543"/>
+>>>>>>> b02f176be14280e4bccc160ef1acaa0586c174ee
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/verilog/auto_alu_tester_30.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/auto_alu_tester_30.v"/>
+<<<<<<< HEAD
+        <Attr Name="ImportTime" Val="1604641837"/>
+=======
+        <Attr Name="ImportTime" Val="1604603543"/>
+>>>>>>> b02f176be14280e4bccc160ef1acaa0586c174ee
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/verilog/auto_alu_tester_31.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/auto_alu_tester_31.v"/>
+<<<<<<< HEAD
+        <Attr Name="ImportTime" Val="1604641837"/>
+=======
+        <Attr Name="ImportTime" Val="1604603543"/>
+>>>>>>> b02f176be14280e4bccc160ef1acaa0586c174ee
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/verilog/auto_alu_tester_32.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/auto_alu_tester_32.v"/>
+<<<<<<< HEAD
+        <Attr Name="ImportTime" Val="1604641837"/>
+=======
+        <Attr Name="ImportTime" Val="1604603543"/>
+>>>>>>> b02f176be14280e4bccc160ef1acaa0586c174ee
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/verilog/auto_alu_tester_33.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/auto_alu_tester_33.v"/>
+<<<<<<< HEAD
+        <Attr Name="ImportTime" Val="1604641837"/>
+=======
+        <Attr Name="ImportTime" Val="1604603543"/>
+>>>>>>> b02f176be14280e4bccc160ef1acaa0586c174ee
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/verilog/auto_alu_tester_34.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/auto_alu_tester_34.v"/>
+<<<<<<< HEAD
+        <Attr Name="ImportTime" Val="1604641837"/>
+=======
+        <Attr Name="ImportTime" Val="1604603543"/>
+>>>>>>> b02f176be14280e4bccc160ef1acaa0586c174ee
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/verilog/auto_alu_tester_35.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/auto_alu_tester_35.v"/>
+<<<<<<< HEAD
+        <Attr Name="ImportTime" Val="1604641837"/>
+=======
+        <Attr Name="ImportTime" Val="1604603543"/>
+>>>>>>> b02f176be14280e4bccc160ef1acaa0586c174ee
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/verilog/auto_alu_tester_36.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/auto_alu_tester_36.v"/>
+<<<<<<< HEAD
+        <Attr Name="ImportTime" Val="1604641837"/>
+=======
+        <Attr Name="ImportTime" Val="1604603543"/>
+>>>>>>> b02f176be14280e4bccc160ef1acaa0586c174ee
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/verilog/auto_alu_tester_37.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/auto_alu_tester_37.v"/>
+<<<<<<< HEAD
+        <Attr Name="ImportTime" Val="1604641837"/>
+=======
+        <Attr Name="ImportTime" Val="1604603543"/>
+>>>>>>> b02f176be14280e4bccc160ef1acaa0586c174ee
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/verilog/auto_alu_tester_38.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/auto_alu_tester_38.v"/>
+<<<<<<< HEAD
+        <Attr Name="ImportTime" Val="1604641837"/>
+=======
+        <Attr Name="ImportTime" Val="1604603543"/>
+>>>>>>> b02f176be14280e4bccc160ef1acaa0586c174ee
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/verilog/auto_alu_tester_39.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/auto_alu_tester_39.v"/>
+<<<<<<< HEAD
+        <Attr Name="ImportTime" Val="1604641837"/>
+=======
+        <Attr Name="ImportTime" Val="1604603543"/>
+>>>>>>> b02f176be14280e4bccc160ef1acaa0586c174ee
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/verilog/auto_alu_tester_40.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/auto_alu_tester_40.v"/>
+<<<<<<< HEAD
+        <Attr Name="ImportTime" Val="1604641837"/>
+=======
+        <Attr Name="ImportTime" Val="1604603543"/>
+>>>>>>> b02f176be14280e4bccc160ef1acaa0586c174ee
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/verilog/auto_alu_tester_7.v">
+      <FileInfo>
+<<<<<<< HEAD
+        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/auto_alu_tester_7.v"/>
+        <Attr Name="ImportTime" Val="1604641837"/>
+=======
+        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/auto_alu_tester_41.v"/>
+        <Attr Name="ImportTime" Val="1604603543"/>
+>>>>>>> b02f176be14280e4bccc160ef1acaa0586c174ee
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/verilog/auto_alu_tester_8.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/auto_alu_tester_8.v"/>
+<<<<<<< HEAD
+        <Attr Name="ImportTime" Val="1604641837"/>
+=======
+        <Attr Name="ImportTime" Val="1604603543"/>
+>>>>>>> b02f176be14280e4bccc160ef1acaa0586c174ee
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/verilog/auto_alu_tester_9.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/auto_alu_tester_9.v"/>
+<<<<<<< HEAD
+        <Attr Name="ImportTime" Val="1604641837"/>
+=======
+        <Attr Name="ImportTime" Val="1604603543"/>
+>>>>>>> b02f176be14280e4bccc160ef1acaa0586c174ee
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/verilog/auto_tester_run_4.v">
+      <FileInfo>
+<<<<<<< HEAD
+        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/auto_tester_run_4.v"/>
+        <Attr Name="ImportTime" Val="1604641837"/>
+=======
+        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/auto_tester_run_5.v"/>
+        <Attr Name="ImportTime" Val="1604603543"/>
+>>>>>>> b02f176be14280e4bccc160ef1acaa0586c174ee
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/verilog/button_conditioner_2.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/button_conditioner_2.v"/>
+<<<<<<< HEAD
+        <Attr Name="ImportTime" Val="1604641837"/>
+=======
+        <Attr Name="ImportTime" Val="1604603542"/>
+>>>>>>> b02f176be14280e4bccc160ef1acaa0586c174ee
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/verilog/counter_42.v">
+      <FileInfo>
+<<<<<<< HEAD
+        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/counter_42.v"/>
+        <Attr Name="ImportTime" Val="1604641837"/>
+=======
+        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/counter_46.v"/>
+        <Attr Name="ImportTime" Val="1604603543"/>
+>>>>>>> b02f176be14280e4bccc160ef1acaa0586c174ee
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/verilog/counter_48.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/counter_48.v"/>
+<<<<<<< HEAD
+        <Attr Name="ImportTime" Val="1604641837"/>
+=======
+        <Attr Name="ImportTime" Val="1604603543"/>
+>>>>>>> b02f176be14280e4bccc160ef1acaa0586c174ee
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/verilog/decoder_50.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/decoder_50.v"/>
+<<<<<<< HEAD
+        <Attr Name="ImportTime" Val="1604641837"/>
+=======
+        <Attr Name="ImportTime" Val="1604603543"/>
+>>>>>>> b02f176be14280e4bccc160ef1acaa0586c174ee
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/verilog/edge_detector_3.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/edge_detector_3.v"/>
+<<<<<<< HEAD
+        <Attr Name="ImportTime" Val="1604641837"/>
+=======
+        <Attr Name="ImportTime" Val="1604603542"/>
+>>>>>>> b02f176be14280e4bccc160ef1acaa0586c174ee
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/verilog/manual_alu_tester_5.v">
+      <FileInfo>
+<<<<<<< HEAD
+        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/manual_alu_tester_5.v"/>
+        <Attr Name="ImportTime" Val="1604641837"/>
+=======
+        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/manual_alu_tester_4.v"/>
+        <Attr Name="ImportTime" Val="1604603542"/>
+>>>>>>> b02f176be14280e4bccc160ef1acaa0586c174ee
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/verilog/multi_seven_seg_43.v">
+      <FileInfo>
+<<<<<<< HEAD
+        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/multi_seven_seg_43.v"/>
+        <Attr Name="ImportTime" Val="1604641837"/>
+=======
+        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/multi_seven_seg_47.v"/>
+        <Attr Name="ImportTime" Val="1604603543"/>
+=======
+    <File Path="$PSRCDIR/sources_1/imports/verilog/manual_alu_tester_2.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/manual_alu_tester_2.v"/>
+        <Attr Name="ImportTime" Val="1604407486"/>
+>>>>>>> parent of 6052a66... Added Auto Tester Files and flashed FPGA
+=======
+    <File Path="$PSRCDIR/sources_1/imports/verilog/manual_alu_tester_2.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/manual_alu_tester_2.v"/>
+        <Attr Name="ImportTime" Val="1604407486"/>
+>>>>>>> parent of 6052a66... Added Auto Tester Files and flashed FPGA
+>>>>>>> b02f176be14280e4bccc160ef1acaa0586c174ee
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/verilog/pipeline_6.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/pipeline_6.v"/>
+<<<<<<< HEAD
+        <Attr Name="ImportTime" Val="1604641837"/>
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <Attr Name="ImportTime" Val="1604603543"/>
+=======
+        <Attr Name="ImportTime" Val="1604407486"/>
+>>>>>>> parent of 6052a66... Added Auto Tester Files and flashed FPGA
+=======
+        <Attr Name="ImportTime" Val="1604407486"/>
+>>>>>>> parent of 6052a66... Added Auto Tester Files and flashed FPGA
+>>>>>>> b02f176be14280e4bccc160ef1acaa0586c174ee
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/verilog/reset_conditioner_1.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/reset_conditioner_1.v"/>
+<<<<<<< HEAD
+        <Attr Name="ImportTime" Val="1604641837"/>
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <Attr Name="ImportTime" Val="1604603542"/>
+>>>>>>> b02f176be14280e4bccc160ef1acaa0586c174ee
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/verilog/seven_seg_49.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/seven_seg_49.v"/>
+<<<<<<< HEAD
+        <Attr Name="ImportTime" Val="1604641837"/>
+=======
+        <Attr Name="ImportTime" Val="1604603543"/>
+=======
+        <Attr Name="ImportTime" Val="1604407486"/>
+>>>>>>> parent of 6052a66... Added Auto Tester Files and flashed FPGA
+=======
+        <Attr Name="ImportTime" Val="1604407486"/>
+>>>>>>> parent of 6052a66... Added Auto Tester Files and flashed FPGA
+>>>>>>> b02f176be14280e4bccc160ef1acaa0586c174ee
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/verilog/au_top_0.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../verilog/au_top_0.v"/>
+<<<<<<< HEAD
+        <Attr Name="ImportTime" Val="1604641837"/>
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <Attr Name="ImportTime" Val="1604603542"/>
+=======
+        <Attr Name="ImportTime" Val="1604407486"/>
+>>>>>>> parent of 6052a66... Added Auto Tester Files and flashed FPGA
+=======
+        <Attr Name="ImportTime" Val="1604407486"/>
+>>>>>>> parent of 6052a66... Added Auto Tester Files and flashed FPGA
+>>>>>>> b02f176be14280e4bccc160ef1acaa0586c174ee
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="au_top_0"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PPRDIR/../../constraint/alchitry.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../../../../Desktop/alchitry-labs-1.2.0/library/components/au.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../constraint/io.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2020">
+      <Desc>Vivado Synthesis Defaults</Desc>
+    </StratHandle>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>
